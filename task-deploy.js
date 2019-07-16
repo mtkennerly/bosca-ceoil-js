@@ -5,12 +5,15 @@ ghPages.publish(
     {
         "src": [
             "index.html",
+            "index.css",
             "assets/*.css",
             "assets/*.js",
             "audio/**/*.flac",
         ]
     },
     err => {
-        console.log(`Failure: ${err}`);
+        if (err !== undefined) {
+            console.log(`Failure: ${err}`);
+        }
     }
 );

@@ -138,7 +138,7 @@ function setEffect(effect: string, value: number) {
 
 function scheduleNote(chord: number, letter: string, index: number, length: number) {
     unscheduleNote(chord, letter, index);
-    console.log(`scheduleNote(chord=${chord}, letter=${letter}, index=${index}, length=${length})`);
+    // console.log(`scheduleNote(chord=${chord}, letter=${letter}, index=${index}, length=${length})`);
     patterns[chord][letter][index]["length"] = length;
 
     patterns[chord][letter][index]["scheduledEvent"] = tone.Transport.schedule(
@@ -174,7 +174,7 @@ function unscheduleNote(chord: number, letter: string, index: number) {
 
 function onClickNoteCell(event: MouseEvent, cell: HTMLTableCellElement, chord: number, letter: string, index: number) {
     let length = patterns[chord][letter][index]["length"];
-    console.log(`onClickNoteCell(chord=${chord}, letter=${letter}, index=${index}) | length ${length}`);
+    // console.log(`onClickNoteCell(chord=${chord}, letter=${letter}, index=${index}) | length ${length}`);
 
     if (event.shiftKey && event.ctrlKey) {
         length = Math.max(length - 1, 0);

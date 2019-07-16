@@ -35,4 +35,4 @@ Initial setup:
 Run:
 
 * `npm run dev`
-* Open `http://127.0.0.1:8080/index.html` in your browser
+* Open `http://127.0.0.1:8000/index.html` in your browser
