@@ -1,0 +1,43 @@
+{
+  "name": "bosca-coeil-js",
+  "version": "0.1.0",
+  "description": "TypeScript port of SiON",
+  "main": "out/index.js",
+  "scripts": {
+    "assets": "node task-assets.js",
+    "compile": "tsc -p ./",
+    "deploy": "node task-deploy.js",
+    "dev": "concurrently npm:watch npm:webpack-dev npm:serve",
+    "serve": "http-server",
+    "start": "node out/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "tsc -watch -p ./",
+    "webpack": "webpack --mode development",
+    "webpack-dev": "webpack --mode development --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mtkennerly/bosca-coeil-js.git"
+  },
+  "author": "Matthew T. Kennerly",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mtkennerly/bosca-coeil-js/issues"
+  },
+  "homepage": "https://github.com/mtkennerly/bosca-coeil-js#readme",
+  "dependencies": {
+    "tone": "^13.4.9"
+  },
+  "devDependencies": {
+    "@types/node": "^12.6.3",
+    "@types/tone": "git+https://github.com/Tonejs/TypeScript.git",
+    "concurrently": "^4.1.1",
+    "gh-pages": "^2.0.1",
+    "http-server": "^0.11.1",
+    "ts-loader": "^6.0.4",
+    "tslint": "^5.18.0",
+    "typescript": "^3.5.2",
+    "webpack": "^4.35.2",
+    "webpack-cli": "^3.3.5"
+  }
+}
