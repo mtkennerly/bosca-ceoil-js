@@ -1,5 +1,5 @@
 {
-  "name": "bosca-coeil-js",
+  "name": "bosca-ceoil-js",
   "version": "0.1.0",
   "description": "TypeScript port of SiON",
   "main": "out/index.js",
@@ -8,7 +8,7 @@
     "compile": "tsc -p ./",
     "deploy": "node task-deploy.js",
     "dev": "concurrently npm:watch npm:webpack-dev npm:serve",
-    "serve": "ws --rewrite \"/bosca-coeil-js/(.*) -> /$1\"",
+    "serve": "ws --rewrite \"/bosca-ceoil-js/(.*) -> /$1\"",
     "start": "node out/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "tsc -watch -p ./",
@@ -17,14 +17,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mtkennerly/bosca-coeil-js.git"
+    "url": "git+https://github.com/mtkennerly/bosca-ceoil-js.git"
   },
   "author": "Matthew T. Kennerly",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mtkennerly/bosca-coeil-js/issues"
+    "url": "https://github.com/mtkennerly/bosca-ceoil-js/issues"
   },
-  "homepage": "https://github.com/mtkennerly/bosca-coeil-js#readme",
+  "homepage": "https://github.com/mtkennerly/bosca-ceoil-js#readme",
   "dependencies": {
     "dialog-polyfill": "^0.5.0",
     "tone": "^13.4.9"

@@ -1,6 +1,6 @@
-# Bosca Coeil JS
+# Bosca Ceoil JS
 This project is an HTML/CSS/JavaScript (TypeScript) rewrite of
-[Bosca Coeil](https://github.com/TerryCavanagh/boscaceoil) using samples
+[Bosca Ceoil](https://github.com/TerryCavanagh/boscaceoil) using samples
 of the preset instruments from [SiON](https://github.com/keim/SiON)
 (rather than a port of SiON itself).
 
@@ -10,7 +10,7 @@ It is still a prototype, so significant functionality is missing.
 This was how the SiON samples were recorded:
 
 * 100% system volume.
-* Create a Bosca Coeil song with 18 patterns, where every even pattern
+* Create a Bosca Ceoil song with 18 patterns, where every even pattern
   is blank. Every odd pattern is a single, full-measure note, starting
   from C1 and going up to C9.
 * Record the song in Audacity and use the Sound Finder function to split
