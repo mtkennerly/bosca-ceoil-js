@@ -1,5 +1,6 @@
 import * as tone from 'tone';
 import { getSampler } from "./index";
+const dialogPolyfill = require("dialog-polyfill");
 
 let playing = false;
 const letters = ["C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B"];
@@ -234,6 +235,9 @@ function onLoad() {
     let helpButton = document.getElementById("helpButton");
     let helpModal = document.getElementById("helpModal");
     if (helpButton !== null && helpModal !== null) {
+        if (!(helpModal as any).showModal) {
+            dialogPolyfill.default.registerDialog(helpModal);
+        }
         helpButton.addEventListener("click", () => { (helpModal as any).showModal(); });
         const helpModalClose = helpModal.querySelector(".close");
         if (helpModalClose !== null) {

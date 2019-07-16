@@ -34,3 +34,7 @@ download(
     `${assets}/mdl-selectfield.min.js`,
     "https://cdn.rawgit.com/kybarg/mdl-selectfield/mdl-menu-implementation/mdl-selectfield.min.js"
 );
+download(
+    `${assets}/dialog-polyfill.min.css`,
+    "https://cdnjs.cloudflare.com/ajax/libs/dialog-polyfill/0.5.0/dialog-polyfill.min.css"
+);

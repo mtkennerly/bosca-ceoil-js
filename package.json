@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/mtkennerly/bosca-coeil-js#readme",
   "dependencies": {
+    "dialog-polyfill": "^0.5.0",
     "tone": "^13.4.9"
   },
   "devDependencies": {
