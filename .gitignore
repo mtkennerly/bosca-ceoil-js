@@ -1,5 +1,8 @@
 node_modules/
 out/
+tmp/
 assets/
 audio/**/*_data/
 *.aup
+*.tgz
+.vscode/

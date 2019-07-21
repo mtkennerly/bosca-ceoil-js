@@ -1,5 +1,5 @@
 import * as tone from 'tone';
-import { getSampler } from "./index";
+import { changeSampler, getSampler } from "./audio";
 const dialogPolyfill = require("dialog-polyfill");
 
 let playing = false;
@@ -25,6 +25,7 @@ interface Note {
     scheduledEvent: number | null;
 }
 
+let instrumentName = "midi.piano1";
 let sampler = getSampler("midi.piano1");
 let patterns: { [key: number]: { [key: string]: Array<Note> } } = {};
 for (const chord of chords) {
@@ -51,6 +52,20 @@ function resumeAudioContext() {
     let ac = (tone as any).context;
     if (ac.state !== "running") {
         ac.resume();
+    }
+}
+
+// mdl-selectfield doesn't play nice with custom onchange event listeners,
+// so we use this to handle instrument changes instead.
+function setInstrumentLoop(instrumentField: HTMLSelectElement) {
+    setInstrument(instrumentField);
+    setTimeout(() => { setInstrumentLoop(instrumentField); }, 250);
+}
+
+function setInstrument(instrumentField: HTMLSelectElement) {
+    if (instrumentName !== instrumentField.value) {
+        instrumentName = instrumentField.value;
+        changeSampler(sampler, instrumentField.value);
     }
 }
 
@@ -245,6 +260,11 @@ function onLoad() {
                 (helpModal as any).close();
             });
         }
+    }
+
+    let instrumentField = document.getElementById("instruments");
+    if (instrumentField !== null && instrumentField instanceof HTMLSelectElement) {
+        setInstrumentLoop(instrumentField);
     }
 
     let bpmField = document.getElementById("bpm");

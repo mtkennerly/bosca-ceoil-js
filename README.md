@@ -7,20 +7,18 @@ of the preset instruments from [SiON](https://github.com/keim/SiON)
 It is still a prototype, so significant functionality is missing.
 
 ## Sample creation
-This was how the SiON samples were recorded:
+The SiON samples were created by running
+`npm run samples -- <path_to_bosca_ceoil_clone>`.
+This requires a few things:
 
-* 100% system volume.
-* Create a Bosca Ceoil song with 18 patterns, where every even pattern
-  is blank. Every odd pattern is a single, full-measure note, starting
-  from C1 and going up to C9.
-* Record the song in Audacity and use the Sound Finder function to split
-  the song into one segment per note, with these settings:
-  * Silence threshold (-dB): `70.0`
-  * Minimum silence duration( seconds): `0.300`
-  * Label starting point: `0.010`
-  * Label ending point: `0.010`
-  * Add label at the end: `0` (no)
-* Export all segments as FLAC at level 5 and 16-bit depth.
+* A clone of Bosca Ceoil with support for
+  [exporting via CLI](https://github.com/TerryCavanagh/boscaceoil/pull/71).
+  Since that functionality is not in an official release, the script will run
+  `adl application.xml` in that clone, so you'll need the Adobe AIR SDK.
+* [SoX](http://sox.sourceforge.net) for removing silence from the end of the
+  recordings and converting from WAV to OGG.
+
+The script should be run with 100% system volume.
 
 ## Development
 Prerequisites:

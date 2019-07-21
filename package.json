@@ -3,11 +3,13 @@
   "version": "0.1.0",
   "description": "TypeScript port of SiON",
   "main": "out/index.js",
+  "types": "out/index.d.ts",
   "scripts": {
-    "assets": "node task-assets.js",
+    "assets": "ts-node tasks/assets.ts",
     "compile": "tsc -p ./",
-    "deploy": "node task-deploy.js",
+    "deploy": "ts-node tasks/deploy.ts",
     "dev": "concurrently npm:watch npm:webpack-dev npm:serve",
+    "samples": "ts-node tasks/samples.ts",
     "serve": "ws --rewrite \"/bosca-ceoil-js/(.*) -> /$1\"",
     "start": "node out/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -25,17 +27,25 @@
     "url": "https://github.com/mtkennerly/bosca-ceoil-js/issues"
   },
   "homepage": "https://github.com/mtkennerly/bosca-ceoil-js#readme",
+  "files": [
+    "/out"
+  ],
   "dependencies": {
     "dialog-polyfill": "^0.5.0",
     "tone": "^13.4.9"
   },
   "devDependencies": {
+    "@types/gh-pages": "^2.0.0",
+    "@types/js-yaml": "^3.12.1",
     "@types/node": "^12.6.3",
     "@types/tone": "git+https://github.com/Tonejs/TypeScript.git",
     "concurrently": "^4.1.1",
     "gh-pages": "^2.0.1",
+    "js-yaml": "^3.13.1",
+    "js-yaml-loader": "^1.2.2",
     "local-web-server": "^3.0.4",
     "ts-loader": "^6.0.4",
+    "ts-node": "^8.3.0",
     "tslint": "^5.18.0",
     "typescript": "^3.5.2",
     "webpack": "^4.35.2",

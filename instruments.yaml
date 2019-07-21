@@ -1,0 +1,775 @@
+midi.piano1:
+  index: 0
+  duration: short
+  category: [MIDI, Piano, Grand Piano]
+# midi.piano2:
+#   index: 1
+#   category: [MIDI, Piano, Bright Piano]
+# midi.piano3:
+#   index: 2
+#   category: [MIDI, Piano, Electric Grand]
+# midi.piano4:
+#   index: 3
+#   category: [MIDI, Piano, Honky Tonk]
+# midi.piano5:
+#   index: 4
+#   category: [MIDI, Piano, Electric Piano 1]
+# midi.piano6:
+#   index: 5
+#   category: [MIDI, Piano, Electric Piano 2]
+# midi.piano7:
+#   index: 6
+#   category: [MIDI, Piano, Harpsichord]
+# midi.piano8:
+#   index: 7
+#   category: [MIDI, Piano, Clavi]
+midi.chrom1:
+  index: 8
+  duration: constant
+  category: [MIDI, Bells, Celesta]
+# midi.chrom2:
+#   index: 9
+# midi.chrom3:
+#   index: 10
+# midi.chrom4:
+#   index: 11
+# midi.chrom5:
+#   index: 12
+# midi.chrom6:
+#   index: 13
+# midi.chrom7:
+#   index: 14
+# midi.chrom8:
+#   index: 15
+midi.organ1:
+  index: 16
+  duration: instant
+  category: [MIDI, Organ, Drawbar Organ]
+# midi.organ2:
+#   index: 17
+# midi.organ3:
+#   index: 18
+# midi.organ4:
+#   index: 19
+# midi.organ5:
+#   index: 20
+# midi.organ6:
+#   index: 21
+# midi.organ7:
+#   index: 22
+# midi.organ8:
+#   index: 23
+midi.guitar1:
+  index: 24
+  duration: short
+  category: [MIDI, Guitar, Nylon Guitar]
+# midi.guitar2:
+#   index: 25
+# midi.guitar3:
+#   index: 26
+# midi.guitar4:
+#   index: 27
+# midi.guitar5:
+#   index: 28
+# midi.guitar6:
+#   index: 29
+# midi.guitar7:
+#   index: 30
+# midi.guitar8:
+#   index: 31
+midi.bass1:
+  index: 32
+  duration: instant
+  category: [MIDI, Bass, Acoustic Bass]
+# midi.bass2:
+#   index: 33
+# midi.bass3:
+#   index: 34
+# midi.bass4:
+#   index: 35
+# midi.bass5:
+#   index: 36
+# midi.bass6:
+#   index: 37
+# midi.bass7:
+#   index: 38
+# midi.bass8:
+#   index: 39
+midi.strings1:
+  index: 40
+  duration: mini
+  category: [MIDI, Strings, Violin]
+# midi.strings2:
+#   index: 41
+# midi.strings3:
+#   index: 42
+# midi.strings4:
+#   index: 43
+# midi.strings5:
+#   index: 44
+# midi.strings6:
+#   index: 45
+# midi.strings7:
+#   index: 46
+# midi.strings8:
+#   index: 47
+midi.ensemble1:
+  index: 48
+  duration: mid
+  category: [MIDI, Ensemble, String Ensemble 1]
+# midi.ensemble2:
+#   index: 49
+# midi.ensemble3:
+#   index: 50
+# midi.ensemble4:
+#   index: 51
+# midi.ensemble5:
+#   index: 52
+# midi.ensemble6:
+#   index: 53
+# midi.ensemble7:
+#   index: 54
+# midi.ensemble8:
+#   index: 55
+midi.brass1:
+  index: 56
+  duration: mini
+  category: [MIDI, Brass, Trumpet]
+# midi.brass2:
+#   index: 57
+# midi.brass3:
+#   index: 58
+# midi.brass4:
+#   index: 59
+# midi.brass5:
+#   index: 60
+# midi.brass6:
+#   index: 61
+# midi.brass7:
+#   index: 62
+# midi.brass8:
+#   index: 63
+midi.reed1:
+  index: 64
+  duration: mini
+  category: [MIDI, Reed, Soprano Sax]
+# midi.reed2:
+#   index: 65
+# midi.reed3:
+#   index: 66
+# midi.reed4:
+#   index: 67
+# midi.reed5:
+#   index: 68
+# midi.reed6:
+#   index: 69
+# midi.reed7:
+#   index: 70
+# midi.reed8:
+#   index: 71
+midi.pipe1:
+  index: 72
+  duration: mini
+  category: [MIDI, Pipe, Piccolo]
+# midi.pipe2:
+#   index: 73
+# midi.pipe3:
+#   index: 74
+# midi.pipe4:
+#   index: 75
+# midi.pipe5:
+#   index: 76
+# midi.pipe6:
+#   index: 77
+# midi.pipe7:
+#   index: 78
+# midi.pipe8:
+#   index: 79
+midi.lead1:
+  index: 80
+  duration: mini
+  category: [MIDI, Lead, Square Lead]
+# midi.lead2:
+#   index: 81
+# midi.lead3:
+#   index: 82
+# midi.lead4:
+#   index: 83
+# midi.lead5:
+#   index: 84
+# midi.lead6:
+#   index: 85
+# midi.lead7:
+#   index: 86
+# midi.lead8:
+#   index: 87
+midi.pad1:
+  index: 88
+  duration: long
+  category: [MIDI, Pads, New Age Pad]
+# midi.pad2:
+#   index: 89
+# midi.pad3:
+#   index: 90
+# midi.pad4:
+#   index: 91
+# midi.pad5:
+#   index: 92
+# midi.pad6:
+#   index: 93
+# midi.pad7:
+#   index: 94
+# midi.pad8:
+#   index: 95
+midi.fx1:
+  index: 96
+  duration: mega
+  category: [MIDI, Synth, Rain]
+# midi.fx2:
+#   index: 97
+# midi.fx3:
+#   index: 98
+# midi.fx4:
+#   index: 99
+# midi.fx5:
+#   index: 100
+# midi.fx6:
+#   index: 101
+# midi.fx7:
+#   index: 102
+# midi.fx8:
+#   index: 103
+midi.world1:
+  index: 104
+  duration: extended
+  category: [MIDI, World, Sitar]
+# midi.world2:
+#   index: 105
+# midi.world3:
+#   index: 106
+# midi.world4:
+#   index: 107
+# midi.world5:
+#   index: 108
+# midi.world6:
+#   index: 109
+# midi.world7:
+#   index: 110
+# midi.world8:
+#   index: 111
+midi.percus1:
+  index: 112
+  duration: long
+  category: [MIDI, Drums, Tinkle Bell]
+# midi.percus2:
+#   index: 113
+# midi.percus3:
+#   index: 114
+# midi.percus4:
+#   index: 115
+# midi.percus5:
+#   index: 116
+# midi.percus6:
+#   index: 117
+# midi.percus7:
+#   index: 118
+# midi.percus8:
+#   index: 119
+midi.se1:
+  index: 120
+  duration: mini
+  category: [MIDI, Effects, Fret Noise]
+# midi.se2:
+#   index: 121
+# midi.se3:
+#   index: 122
+# midi.se4:
+#   index: 123
+# midi.se5:
+#   index: 124
+# midi.se6:
+#   index: 125
+# midi.se7:
+#   index: 126
+# midi.se8:
+#   index: 127
+square:
+  index: 128
+  duration: infinite
+  category: [Chiptune, Square Wave]
+# saw:
+#   index: 129
+# triangle:
+#   index: 130
+# sine:
+#   index: 131
+# noise:
+#   index: 132
+# dualsquare:
+#   index: 133
+# dualsaw:
+#   index: 134
+# triangle8:
+#   index: 135
+# konami:
+#   index: 136
+# ramp:
+#   index: 137
+# beep:
+#   index: 138
+# ma1:
+#   index: 139
+# bassdrumm:
+#   index: 140
+# snare:
+#   index: 141
+# closedhh:
+#   index: 142
+# valsound.bass1:
+#   index: 143
+# valsound.bass2:
+#   index: 144
+# valsound.bass3:
+#   index: 145
+# valsound.bass4:
+#   index: 146
+# valsound.bass5:
+#   index: 147
+# valsound.bass6:
+#   index: 148
+# valsound.bass7:
+#   index: 149
+# valsound.bass8:
+#   index: 150
+# valsound.bass9:
+#   index: 151
+# valsound.bass10:
+#   index: 152
+# valsound.bass11:
+#   index: 153
+# valsound.bass12:
+#   index: 154
+# valsound.bass13:
+#   index: 155
+# valsound.bass14:
+#   index: 156
+# valsound.bass15:
+#   index: 157
+# valsound.bass16:
+#   index: 158
+# valsound.bass17:
+#   index: 159
+# valsound.bass18:
+#   index: 160
+# valsound.bass19:
+#   index: 161
+# valsound.bass20:
+#   index: 162
+# valsound.bass21:
+#   index: 163
+# valsound.bass22:
+#   index: 164
+# valsound.bass23:
+#   index: 165
+# valsound.bass24:
+#   index: 166
+# valsound.bass25:
+#   index: 167
+# valsound.bass26:
+#   index: 168
+# valsound.bass27:
+#   index: 169
+# valsound.bass28:
+#   index: 170
+# valsound.bass29:
+#   index: 171
+# valsound.bass30:
+#   index: 172
+# valsound.bass31:
+#   index: 173
+# valsound.bass32:
+#   index: 174
+# valsound.bass33:
+#   index: 175
+# valsound.bass34:
+#   index: 176
+# valsound.bass35:
+#   index: 177
+# valsound.bass36:
+#   index: 178
+# valsound.bass37:
+#   index: 179
+# valsound.bass38:
+#   index: 180
+# valsound.bass39:
+#   index: 181
+# valsound.bass40:
+#   index: 182
+# valsound.bass41:
+#   index: 183
+# valsound.bass42:
+#   index: 184
+# valsound.bass43:
+#   index: 185
+# valsound.bass44:
+#   index: 186
+# valsound.bass45:
+#   index: 187
+# valsound.bass46:
+#   index: 188
+# valsound.bass47:
+#   index: 189
+# valsound.bass48:
+#   index: 190
+# valsound.bass49:
+#   index: 191
+# valsound.bass50:
+#   index: 192
+# valsound.bass51:
+#   index: 193
+# valsound.bass52:
+#   index: 194
+# valsound.bass53:
+#   index: 195
+# valsound.bass54:
+#   index: 196
+# valsound.brass1:
+#   index: 197
+# valsound.brass2:
+#   index: 198
+# valsound.brass3:
+#   index: 199
+# valsound.brass4:
+#   index: 200
+# valsound.brass5:
+#   index: 201
+# valsound.brass6:
+#   index: 202
+# valsound.brass7:
+#   index: 203
+# valsound.brass8:
+#   index: 204
+# valsound.brass9:
+#   index: 205
+# valsound.brass10:
+#   index: 206
+# valsound.brass11:
+#   index: 207
+# valsound.brass12:
+#   index: 208
+# valsound.brass13:
+#   index: 209
+# valsound.brass14:
+#   index: 210
+# valsound.brass15:
+#   index: 211
+# valsound.brass16:
+#   index: 212
+# valsound.brass17:
+#   index: 213
+# valsound.brass18:
+#   index: 214
+# valsound.brass19:
+#   index: 215
+# valsound.brass20:
+#   index: 216
+# valsound.bell1:
+#   index: 217
+# valsound.bell2:
+#   index: 218
+# valsound.bell3:
+#   index: 219
+# valsound.bell4:
+#   index: 220
+# valsound.bell5:
+#   index: 221
+# valsound.bell6:
+#   index: 222
+# valsound.bell7:
+#   index: 223
+# valsound.bell8:
+#   index: 224
+# valsound.bell9:
+#   index: 225
+# valsound.bell10:
+#   index: 226
+# valsound.bell11:
+#   index: 227
+# valsound.bell12:
+#   index: 228
+# valsound.bell13:
+#   index: 229
+# valsound.bell14:
+#   index: 230
+# valsound.bell15:
+#   index: 231
+# valsound.bell16:
+#   index: 232
+# valsound.bell17:
+#   index: 233
+# valsound.bell18:
+#   index: 234
+# valsound.guitar1:
+#   index: 235
+# valsound.guitar2:
+#   index: 236
+# valsound.guitar3:
+#   index: 237
+# valsound.guitar4:
+#   index: 238
+# valsound.guitar5:
+#   index: 239
+# valsound.guitar6:
+#   index: 240
+# valsound.guitar7:
+#   index: 241
+# valsound.guitar8:
+#   index: 242
+# valsound.guitar9:
+#   index: 243
+# valsound.guitar10:
+#   index: 244
+# valsound.guitar11:
+#   index: 245
+# valsound.guitar12:
+#   index: 246
+# valsound.guitar13:
+#   index: 247
+# valsound.guitar14:
+#   index: 248
+# valsound.guitar15:
+#   index: 249
+# valsound.guitar16:
+#   index: 250
+# valsound.guitar17:
+#   index: 251
+# valsound.guitar18:
+#   index: 252
+# valsound.lead1:
+#   index: 253
+# valsound.lead2:
+#   index: 254
+# valsound.lead3:
+#   index: 255
+# valsound.lead4:
+#   index: 256
+# valsound.lead5:
+#   index: 257
+# valsound.lead6:
+#   index: 258
+# valsound.lead7:
+#   index: 259
+# valsound.lead8:
+#   index: 260
+# valsound.lead9:
+#   index: 261
+# valsound.lead10:
+#   index: 262
+# valsound.lead11:
+#   index: 263
+# valsound.lead12:
+#   index: 264
+# valsound.lead13:
+#   index: 265
+# valsound.lead14:
+#   index: 266
+# valsound.lead15:
+#   index: 267
+# valsound.lead16:
+#   index: 268
+# valsound.lead17:
+#   index: 269
+# valsound.lead18:
+#   index: 270
+# valsound.lead19:
+#   index: 271
+# valsound.lead20:
+#   index: 272
+# valsound.lead21:
+#   index: 273
+# valsound.lead22:
+#   index: 274
+# valsound.lead23:
+#   index: 275
+# valsound.lead24:
+#   index: 276
+# valsound.lead25:
+#   index: 277
+# valsound.lead26:
+#   index: 278
+# valsound.lead27:
+#   index: 279
+# valsound.lead28:
+#   index: 280
+# valsound.lead29:
+#   index: 281
+# valsound.lead30:
+#   index: 282
+# valsound.lead31:
+#   index: 283
+# valsound.lead32:
+#   index: 284
+# valsound.lead33:
+#   index: 285
+# valsound.lead34:
+#   index: 286
+# valsound.lead35:
+#   index: 287
+# valsound.lead36:
+#   index: 288
+# valsound.lead37:
+#   index: 289
+# valsound.lead38:
+#   index: 290
+# valsound.lead39:
+#   index: 291
+# valsound.lead40:
+#   index: 292
+# valsound.lead41:
+#   index: 293
+# valsound.lead42:
+#   index: 294
+# valsound.piano1:
+#   index: 295
+# valsound.piano2:
+#   index: 296
+# valsound.piano3:
+#   index: 297
+# valsound.piano4:
+#   index: 298
+# valsound.piano5:
+#   index: 299
+# valsound.piano6:
+#   index: 300
+# valsound.piano7:
+#   index: 301
+# valsound.piano8:
+#   index: 302
+# valsound.piano9:
+#   index: 303
+# valsound.piano10:
+#   index: 304
+# valsound.piano11:
+#   index: 305
+# valsound.piano12:
+#   index: 306
+# valsound.piano13:
+#   index: 307
+# valsound.piano14:
+#   index: 308
+# valsound.piano15:
+#   index: 309
+# valsound.piano16:
+#   index: 310
+# valsound.piano17:
+#   index: 311
+# valsound.piano18:
+#   index: 312
+# valsound.piano19:
+#   index: 313
+# valsound.piano20:
+#   index: 314
+# valsound.se1:
+#   index: 315
+# valsound.se2:
+#   index: 316
+# valsound.se3:
+#   index: 317
+# valsound.special1:
+#   index: 318
+# valsound.special2:
+#   index: 319
+# valsound.special3:
+#   index: 320
+# valsound.special4:
+#   index: 321
+# valsound.special5:
+#   index: 322
+# valsound.strpad1:
+#   index: 323
+# valsound.strpad2:
+#   index: 324
+# valsound.strpad3:
+#   index: 325
+# valsound.strpad4:
+#   index: 326
+# valsound.strpad5:
+#   index: 327
+# valsound.strpad6:
+#   index: 328
+# valsound.strpad7:
+#   index: 329
+# valsound.strpad8:
+#   index: 330
+# valsound.strpad9:
+#   index: 331
+# valsound.strpad10:
+#   index: 332
+# valsound.strpad11:
+#   index: 333
+# valsound.strpad12:
+#   index: 334
+# valsound.strpad13:
+#   index: 335
+# valsound.strpad14:
+#   index: 336
+# valsound.strpad15:
+#   index: 337
+# valsound.strpad16:
+#   index: 338
+# valsound.strpad17:
+#   index: 339
+# valsound.strpad18:
+#   index: 340
+# valsound.strpad19:
+#   index: 341
+# valsound.strpad20:
+#   index: 342
+# valsound.strpad21:
+#   index: 343
+# valsound.strpad22:
+#   index: 344
+# valsound.strpad23:
+#   index: 345
+# valsound.strpad24:
+#   index: 346
+# valsound.strpad25:
+#   index: 347
+# valsound.wind1:
+#   index: 348
+# valsound.wind2:
+#   index: 349
+# valsound.wind3:
+#   index: 350
+# valsound.wind4:
+#   index: 351
+# valsound.wind5:
+#   index: 352
+# valsound.wind6:
+#   index: 353
+# valsound.wind7:
+#   index: 354
+# valsound.wind8:
+#   index: 355
+# valsound.world1:
+#   index: 356
+# valsound.world2:
+#   index: 357
+# valsound.world3:
+#   index: 358
+# valsound.world4:
+#   index: 359
+# valsound.world5:
+#   index: 360
+# valsound.world6:
+#   index: 361
+# valsound.world7:
+#   index: 362
+# drumkit.1:
+#   index: 363
+#   duration: short
+#   category: [Drumkit, Simple Drumkit]
+# drumkit.2:
+#   index: 364
+# drumkit.3:
+#   index: 365
