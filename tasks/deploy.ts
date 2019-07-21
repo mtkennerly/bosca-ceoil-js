@@ -11,7 +11,7 @@ ghPages.publish(
             "index.css",
             "assets/*.css",
             "assets/*.js",
-            "audio/**/*.flac",
+            "audio/**/*.ogg",
         ]
     },
     err => {
