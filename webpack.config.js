@@ -2,7 +2,7 @@ path = require("path");
 
 module.exports = {
     entry: {
-        index: './src/player.ts'
+        index: './src/player.tsx'
     },
     module: {
         rules: [
@@ -10,6 +10,10 @@ module.exports = {
                 test: /\.tsx?$/,
                 use: 'ts-loader',
                 exclude: /node_modules/
+            },
+            {
+                test: /\.css$/,
+                use: ["style-loader", "css-loader"],
             },
             {
                 test: /\.yaml$/,
@@ -23,6 +27,6 @@ module.exports = {
     devtool: 'inline-source-map',
     output: {
         filename: '[name].js',
-        path: path.resolve(__dirname, 'assets')
+        path: path.resolve(__dirname, 'public')
     }
 };

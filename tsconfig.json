@@ -12,6 +12,10 @@
     "noFallthroughCasesInSwitch": true,
     "noUnusedParameters": true,
     "strictNullChecks": true,
+    "jsx": "react",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
   },
   "exclude": [
     "node_modules",

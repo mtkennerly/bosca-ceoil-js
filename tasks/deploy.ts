@@ -1,5 +1,5 @@
-import * as ghPages from "gh-pages";
-import * as path from "path";
+import ghPages from "gh-pages";
+import path from "path";
 
 const root = `${path.dirname(process.argv[1])}/..`;
 
@@ -8,9 +8,8 @@ ghPages.publish(
     {
         "src": [
             "index.html",
-            "index.css",
-            "assets/*.css",
-            "assets/*.js",
+            "public/*.css",
+            "public/*.js",
             "audio/**/*.ogg",
         ]
     },

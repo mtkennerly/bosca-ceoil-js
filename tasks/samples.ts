@@ -1,8 +1,8 @@
-import * as fs from "fs";
-import * as path from "path";
-import * as process from "process";
-import * as child_process from "child_process";
-import * as yaml from "js-yaml";
+import fs from "fs";
+import path from "path";
+import process from "process";
+import child_process from "child_process";
+import yaml from "js-yaml";
 import { InstrumentData, notes } from "../src/index";
 
 if (process.argv.length < 3) {

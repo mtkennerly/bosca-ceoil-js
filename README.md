@@ -28,7 +28,6 @@ Prerequisites:
 Initial setup:
 
 * `npm install`
-* `npm run assets`
 
 Run:
 

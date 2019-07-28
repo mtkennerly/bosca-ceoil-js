@@ -10,6 +10,19 @@ body {
     width: 100%;
 }
 
+.mdc-text-field {
+    margin-left: 10px;
+}
+
+.effect-panel {
+    display: inline;
+}
+
+.effect-panel-popup {
+    display: flex;
+    flex-flow: column;
+}
+
 #app {
     display: flex;
     flex-flow: column;
@@ -17,12 +30,12 @@ body {
     width: 100%;
 }
 
-#playButton, #effectsButton, #helpButton {
+button {
     margin-left: 10px;
     margin-right: 10px;
 }
 
-#playButton, #helpButton {
+#playButton {
     width: 100px;
 }
 
@@ -84,7 +97,7 @@ table tr:nth-of-type(12n) {
     border-bottom: 3px solid white;
 }
 
-.metaWorkspace {
+#metaWorkspace {
     background-color: transparent;
     margin-bottom: 10px;
 }
@@ -93,19 +106,14 @@ table tr:nth-of-type(12n) {
     flex-grow: 1;
     overflow-y: auto;
     width: 100%;
-    user-select: none;
 }
 
 table#pattern {
     width: 100%;
 }
 
-/* MDL hides these by default. */
-
-input[type=number]::-webkit-outer-spin-button, input[type=number]::-webkit-inner-spin-button {
-    -webkit-appearance: inner-spin-button !important;
-}
-
-#helpModal {
-    width: 600px;
+.no-select {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
 }

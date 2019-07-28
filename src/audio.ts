@@ -1,4 +1,4 @@
-import * as tone from "tone";
+import tone from "tone";
 import { assertNever, notes } from "./index";
 import { instrumentData } from "./data";
 
