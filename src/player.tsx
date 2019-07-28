@@ -494,7 +494,7 @@ class MetaWorkspace extends React.Component<{ activeChannel: number, activePatte
                     value={song.meta.swing}
                     // @ts-ignore
                     onChange={e => {
-                        const value = parseInt(e.currentTarget.value);
+                        const value = parseFloat(e.currentTarget.value);
                         if (isNaN(value)) {
                             return;
                         }
